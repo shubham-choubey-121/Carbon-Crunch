@@ -1,0 +1,44 @@
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #f4f4f4;
+    flex-wrap: wrap;
+  }
+  
+  .stat-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    text-align: center;
+    flex: 1 1 200px;
+    margin: 15px;
+  }
+  
+  .stat-card h3 {
+    font-size: 2.5rem;
+    color: #2e8b57;
+    margin-bottom: 10px;
+  }
+  
+  .stat-card p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .stats {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .stat-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  
